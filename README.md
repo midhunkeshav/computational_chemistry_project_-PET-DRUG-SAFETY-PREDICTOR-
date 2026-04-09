@@ -20,20 +20,7 @@ Toxicity classifier: Predicts Safe vs. Toxic (95% accuracy)
 Organ classifier: Predicts which organ system is at risk
 Dataset: 40 curated drug compounds with known pet toxicity data sourced from veterinary toxicology literature (ASPCA, FDA CVM).
 ---
-🗂️ Project Structure
-```
-pet_drug_safety/
-├── data/
-│   └── pet_drug_dataset.csv      # 40 curated compounds with toxicity labels
-├── models/                        # Saved trained models (auto-generated)
-├── src/
-│   ├── molecular_features.py      # SMILES → feature vector conversion
-│   ├── train_model.py             # Model training script
-│   ├── predict.py                 # Main prediction interface (CLI)
-│   └── evaluate.py                # Model evaluation & metrics
-├── requirements.txt
-└── README.md
-```
+🗂️ Project 
 ---
 ⚙️ Setup Instructions
 1. Clone the Repository
